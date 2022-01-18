@@ -1,6 +1,7 @@
 # Loop infinito
 while True:
-    # cpf = '16899535009'
+
+
     cpf = input('Digite um CPF: ')
     novo_cpf = cpf[:-2]                 
     reverso = 10                        
@@ -31,3 +32,8 @@ while True:
         print('Válido')
     else:
         print('Inválido')
+        
+    opcao = input('Deseja continuar? [s/n] ')
+
+    if opcao != 's':
+        break
