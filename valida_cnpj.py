@@ -20,7 +20,7 @@ def valida(cnpj):
             print('Válido')
         else:
             print('Inválido')
-    except:
+    except Exception as e:
         return False
 
 
